@@ -1,9 +1,0 @@
--classpath 'C:\\Users\\Client\\Documents\\Outils\\TP6\\build\\classes\\java\\main;C:\\Users\\Client\\Documents\\Outils\\TP6\\build\\resources\\main'
--d 'C:\\Users\\Client\\Documents\\Outils\\TP6\\build\\docs\\javadoc'
--doctitle 'untitled 1.0-SNAPSHOT API'
--notimestamp 
--quiet 
--windowtitle 'untitled 1.0-SNAPSHOT API'
-'C:\\Users\\Client\\Documents\\Outils\\TP6\\src\\main\\java\\com\\example\\exception\\NoSquareException.java'
-'C:\\Users\\Client\\Documents\\Outils\\TP6\\src\\main\\java\\com\\example\\model\\Matrix.java'
-'C:\\Users\\Client\\Documents\\Outils\\TP6\\src\\main\\java\\com\\example\\service\\MatrixMathematics.java'
