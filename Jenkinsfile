@@ -11,5 +11,11 @@ pipeline {
       }
     }
 
+    stage('Mail Notification') {
+      steps {
+        mail(from: 'jenkins-notification@jenkins.com', subject: 'tp', body: 'tp 1111', to: 'fs_mehemel@esi.dz')
+      }
+    }
+
   }
 }
