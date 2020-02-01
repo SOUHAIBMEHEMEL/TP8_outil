@@ -18,8 +18,19 @@ pipeline {
     }
 
     stage('Code Analysis') {
-      steps {
-        echo 'sonar not working'
+      parallel {
+        stage('Code Analysis') {
+          steps {
+            echo 'sonar not working'
+          }
+        }
+
+        stage('Test Reporting') {
+          steps {
+            jacoco()
+          }
+        }
+
       }
     }
 
