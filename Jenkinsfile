@@ -13,7 +13,7 @@ pipeline {
 
     stage('Mail Notification') {
       steps {
-        mail(from: 'Souhaib_Mehemel', subject: 'tp', body: 'tp 1111', to: 'fs_mehemel@esi.dz')
+        echo 'reussi'
       }
     }
 
