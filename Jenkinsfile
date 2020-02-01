@@ -34,5 +34,11 @@ pipeline {
       }
     }
 
+    stage('Deploiement') {
+      steps {
+        echo 'deploiement'
+      }
+    }
+
   }
 }
