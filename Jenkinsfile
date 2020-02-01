@@ -37,7 +37,7 @@ pipeline {
     stage('Deploiement') {
       steps {
         withGradle() {
-          findBuildScans()
+          sh 'gradle publishing'
         }
 
       }
