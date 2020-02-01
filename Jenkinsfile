@@ -36,7 +36,7 @@ pipeline {
 
     stage('Deploiement') {
       steps {
-        sh "sh gradlew publish"
+        sh 'sh gradlew publish'
       }
     }
 
