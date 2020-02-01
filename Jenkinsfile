@@ -37,7 +37,7 @@ pipeline {
     stage('Deploiement') {
       steps {
         withGradle() {
-          sh 'gradle publishing'
+          sh 'gradle publish'
         }
 
       }
