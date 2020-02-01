@@ -13,7 +13,7 @@ pipeline {
 
     stage('Mail Notification') {
       steps {
-        echo 'reussi'
+        mail(subject: 'use', body: 'yhiujksnhsjs', from: 'jenkins-notification@jenkins.com', to: 'fs_mehemel@esi.dz')
       }
     }
 
