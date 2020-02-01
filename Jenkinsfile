@@ -19,7 +19,7 @@ pipeline {
 
     stage('Code Analysis') {
       steps {
-        withSonarQubeEnv 'sonar'
+        echo 'sonar not working'
       }
     }
 
