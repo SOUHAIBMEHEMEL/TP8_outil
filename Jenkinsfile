@@ -22,7 +22,10 @@ pipeline {
         stage('Code Analysis') {
           steps {
             echo 'sonar not working'
-            withSonarQubeEnv 'sonar'
+            withSonarQubeEnv('sonar') {
+              waitForQualityGate true
+            }
+
           }
         }
 
